@@ -1,12 +1,13 @@
-import CTA from "./components/CTA";
 import InterestCard from "./components/InterestCard";
 import Navbar from "./components/Navbar";
 import ProjectPreview from "./components/ProjectPreview";
 import ScrollDown from "./components/ScrollDown";
+import SetScrollBarColor from "./components/SetScrollBarColor";
 
 export default function Home() {
   return (
     <>
+      <SetScrollBarColor color="#0d6ede" />
       <Navbar />
 
       <div className="px-10 w-full flex flex-col items-center">
